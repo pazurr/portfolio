@@ -1,0 +1,373 @@
+body{
+    margin:  auto;
+}
+/* classe parent pour tout les page */
+.parent{
+    width: 100em; 
+    height: 100%;
+    margin: auto;
+    position: relative;
+    transform: scale(1.0);
+
+}
+/* page d'aceuil */
+#Rectangle{
+    width: 100%;
+    height: 500px;
+    background-color:#420056 ;
+    z-index: 1;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30%;
+}
+
+#Titre{
+    position: absolute;
+    top: 2em;
+    left: 4em;
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #70079D;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 20px purple,
+                 0px 0px 40px purple,
+                 0px 0px 80px purple,
+                 0px 0px 100px purple;
+    z-index: 10;
+    color: white
+}
+
+#ImgDev{
+    position: absolute;
+    top: 0em;
+    left: 55em;
+    width: 40rem;
+    height: auto;
+    z-index: 2;
+    margin: 0 auto; 
+}
+#TextDev{
+    position: absolute;
+    top: 8em;
+    left: 7em;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Chakra Petch", sans-serif;
+    width: 30rem;
+    color: white;
+}
+
+.btnAceuil{
+    padding: 10px;
+    background-color: #65167d;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+.btnAceuil,p{
+    font-size: 20px;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+}
+
+.btnAceuil:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 20px purple,
+    0px 0px 40px purple,
+    0px 0px 80px purple,
+    0px 0px 100px purple;
+}
+
+#boxBTN{
+    position: absolute;
+    top: 23rem;
+    left: 13rem;
+    display: flex;
+    gap: 10px;
+}
+
+/* page de présentation */
+
+#RectangleClaire{
+    margin-bottom: 30%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 600px;
+    background-color: rgba(112, 7, 157 , 0.8)
+}
+
+#imgWeb{
+    position: absolute;
+    top: 0em;
+    right:0em;
+    width: 40%;
+    height: 600px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+
+#TextQUI{
+    margin: 0;
+    color: #420056;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 6em;
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+}
+
+#textsuis{
+    margin: 0;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2em;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width:45%;
+}
+
+/* page de contace */
+
+#titreContact{
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 6em;
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+}
+
+#Trait{
+    color: white;
+    position: absolute;
+    top: 15rem;
+    left: 28rem;
+    width: 40rem;
+}
+
+#listeContact{
+    position: absolute;
+    top: 28rem;
+    left: 10rem;
+}
+
+#listeContact,a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 14rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1rem;
+}
+
+#imgContact{
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+
+#imgContact,.imgageContactLI{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 11rem;
+    filter: brightness(1000%);
+} 
+/* page project */
+
+#titre_project{
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2rem;
+    right: 48rem;
+}
+
+#bar_project{
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 2rem;
+    width: 80%;
+    position: absolute;
+    top: 7rem;
+    right: 12rem;
+   
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+    left: -3rem;
+    
+}
+
+.DivtextProject{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border: 6px solid #65167d;
+    font-family: "Chakra Petch", sans-serif;
+    color: #420056;
+}
+
+.project1{
+    background-color: #420056;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px;
+    position: relative;
+    top: -15px;
+}
+
+.RectanglePROJECT{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Textproject{
+    margin: 0;
+    color: #420056;
+}
+
+.coter{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.langage_utilise{
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    top: 5px;
+    color: #420056;
+}
+
+.HCS{
+    text-align: center;
+    margin: 20px;
+    color: #420056;
+}
+
+.bar{
+    color: #420056;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 30%;
+}
+
+#grandFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(112, 7, 157 , 0.8)
+}
+
+#fotterNavigation{
+    justify-content: center;
+    align-content: center;
+}
+
+.foterNav{
+    font-size: 20px;
+}
+
+.listFooter{
+    text-align: center;
+    padding: 0;
+}
+.listFooter,li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+.titrefooter{
+    font-size: 30px;
+}
+
+.foterNav:hover{
+    text-decoration: underline;
+}
+
+/* partie contact de footer */
+#contactFOoterDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgfooter{
+    width: 50px;
+    height: 50px;
+    filter: brightness(1000%);
+}
+
+#barFooterr{
+    color: white;
+    height: 80%;
+}
+#conatctFooter{
+    font-size: 30px;
+    margin: 0;
+}
+
+#listFooter{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.liContactFooter{
+    margin: 10px 10px;
+}
+
+/* Tout droit réserver footer */
+
+#réserverFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#paragrapheFoter{
+    margin: 20px 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#barFooterrReserver{
+    display: flex;
+    align-content: center;
+    color: white;
+    width: 0.1px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+}

@@ -1,0 +1,136 @@
+
+/*boddy */
+
+html,body{
+    margin: 0;            
+    padding: 0;           
+    width: 100%;          
+    height: 100%;       
+    box-sizing: border-box;
+    scrollbar-width: none; 
+    overflow-x: hidden;
+    color: white;
+}
+
+nav ul{
+    position: static;
+    background-color: #3a024b;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px 15px;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav_left{
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+.nav_center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.nav_right{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center
+}
+
+/* Aceuille */
+
+#Aceuille{ 
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    box-sizing: border-box;
+    padding: 5px;
+
+    color:#FFFFFF;
+}
+
+
+
+/* contact */
+
+#Contact{
+    
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+
+    color: #FFFFFF;
+}
+
+
+
+/* A propos */
+
+#Apropos{
+    
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+
+    color: #FFFFFF;
+}
+
+
+/* Project */
+
+#Project{
+    text-decoration: none;
+    font-family: 'preconnect';
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+
+    color: #FFFFFF;
+}
+
+#Project:hover{
+    text-decoration: underline;
+}
+#Aceuille:hover{
+    text-decoration: underline;
+}
+
+#Apropos:hover{
+    text-decoration: underline;
+
+}
+
+#Contact:hover{
+   text-decoration: underline;
+}
+
