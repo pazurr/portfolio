@@ -8,43 +8,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/nav/ordinateur-personnel.png   ">
 </head>
 <body>
     <header>
-        <div class="hero">
-            <nav>
-                <ul>
-                    <li>
-                        <img src="img/nav/accueil(1).png" alt="" class="imgnav">
-                        <a href="index.html">Accueille</a>
-                    </li>
-                    <li>
-                        <img src="img/nav/project-management(1).png" alt="" class="imgnav">
-                        <a href="">Project/Compétence</a>
-                    </li>
-                    <li>
-                        <img src="img/nav/cv.png" alt="" class="imgnav">
-                        <a href="">CV</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="titles">
-                <h1>Un hero banner</h1>
-                <p>Une courte description</p>
+        <nav>
+          <div class="navbar">
+            <img src="img/nav/ordinateur-personnel.png" alt="logo ordi">
+            <!-- mes le titre que tu veux -->
+            <h1>dev web</h1>
+          </div> 
+            <ul class="navbar listeul">
+              <li class="navbar"><img src="img/nav/accueil (1).png" alt="img maison hom" class="imgnav"><a href="index.html" class="navbar liste" >home</a></li>
+              <li class="navbar"><img src="img/nav/project-management (1).png" alt="img project" class="imgnav"><a href="Project.html" class="navbar liste">Projet/compétence</a></li>
+              <li class="navbar"><img src="img/nav/cv (1).png" alt="img cv" class="navbar imgnav"><a href="cv.html"  class="navbar liste" >CV</a></li>
+            </ul>
+            <div class="navbar">
+              <!-- mes le lien de ton github -->
+              <a href="https://github.com" class="button primary navbtn" target="_blank" >mon GitHub🡽</a>
+              <img src="img/nav/suite.png" alt="img 3 trait nav" class="navtoiimg">
+            </div> 
+          </nav>
+          <div class="element">
+            <div class="hero">
+               <div class="bgtrouble">
+                  <h1>développeur web</h1>
+                  <p>Développeur web motivé : <br>innover, créer, évoluer !</p>
+                  <div class="element buttons-container">
+                    <a class="button primary" href="#">à propos</a>
+                    <a class="button secondary" href="#">Contactez</a>
+                 </div>
+               </div>
             </div>
-        </div>
-    </header>
-    <main> 
-        <section>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <div>
-
-                    </div>
+         </div>
+      </header>
+      <main>
+            <section>
+                <div class="contenu">
+                    <div class="texte">
+                        <h1>à propos de moi</h1>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero voluptate dolorem enim cupiditate tenetur suscipit, sed eius iusto ex inventore ipsum est, aliquam odio, cumque dolor. Nemo, architecto sapiente?</p>
+                    </div>  
+                    <div class="img_content">
+                      <img src="img/img_body/code-1076533_1920.jpg" alt="img cod" class="imgcontenu">
+                  </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+            <section>
+              <div class="contenu revers">
+                  <div class="texte" >
+                      <h1>Mes ambition futur</h1>
+                      <hr>
+                      <p>Lorem ipsum dolor   sit amet consectetur adipisicing elit. Cum vero voluptate dolorem enim cupiditate tenetur suscipit, sed eius iusto ex inventore ipsum est, aliquam odio, cumque dolor. Nemo, architecto sapiente?</p>
+                  </div>  
+                  <div class="img_content reversimg">
+                    <img src="https://img.freepik.com/vecteurs-libre/vision-entreprise-prediction-prevision-suivi-opportunites-carriere-emploi-recherche-perspectives-planification-strategique-leadership-motivation_335657-2608.jpg" alt="img cod" class="imgcontenu">
+                </div>
+              </div>
+          </section>
+      </main>
+      <footer>
+        <div class="Contact">
+          <h2>Contactez-moi !</h2>
+          <ul class="dif">
+            <!-- met tes reseaux et demande moi stp autre icone je te les enverais-->
+            <li class="rond"><a href="https://github.com/" target="_blank"><img src="img/contact/github.png" alt="logo github" class="imgcontact"></a></li>
+            <li class="rond"><a href="https://www.instagram.com/" target="_blank"><img src="img/contact/instagram.png" alt="logo insta" class="imgcontact"></a></li>
+            <li class="rond"><a href="https://discord.com/" target="_blank"><img src="img/contact/logo.png" alt="logo discord" class="imgcontact"></a></li>
+            <li class="rond"><a href="https://x.com/?lang=fr" target="_blank"><img src="img/contact/reseaux-sociaux.png" alt="logo x" class="imgcontact"></a></li>
+          </ul> 
+        </div>
+        <p>Tout droit réserver - 2024 site fait par [payette]</p>
+      </footer>
+      <script>   
+        const menu = document.querySelector(".navtoiimg")
+        const navLinks = document.querySelector(".listeul")
+ 
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+      </script>
 </body>
 </html>
