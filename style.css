@@ -494,6 +494,9 @@ cursor: pointer;
       display: flex;
       flex-wrap: wrap;
    }
+   .divcompetances{
+      padding: 0;
+   }
 
    /* page cv */
    .cv{
